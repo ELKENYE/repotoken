@@ -8,14 +8,26 @@ package clase27;
  *
  * @author vina
  */
-public class Clase27 {
 
+public class Clase27 {
+    private String nombre;
+    private int edad;
+    
+    
+    public class condiciones {
+    }
+    
+    public Condiciones(int edad, String nombre) {
+        this.setEdad(edad);
+        this.nombre = nombre;
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    private String nombre;
-    private int edad; 
+     
+    
+     
 }
